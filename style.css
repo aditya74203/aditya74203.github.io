@@ -43,7 +43,38 @@
       font-weight: bold;
       color: var(--accent);
     }
+.top-controls {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 12px;
+  z-index: 1000;
+}
 
+.language-select {
+  padding: 6px 10px;
+  background-color: #141414;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.sign-in-btn {
+  padding: 6px 14px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.sign-in-btn:hover {
+  background-color: #f40612;
+}
     .btn {
       padding: 10px 18px;
       background: var(--accent);
